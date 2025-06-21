@@ -1,0 +1,219 @@
+/*FONTS*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  justify-content: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4444da;
+}
+
+h2 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4444da;
+  font-size: 40px;
+}
+
+h3 {
+  color: #c392ee;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*TopNav*/
+#topNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+#topNav img {
+  max-height: 20px;
+  padding: 0 20px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  padding: 0 20px;
+}
+
+nav a {
+  color: #1a1a1a;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*Header Banner*/
+#header {
+  max-height: 400px;
+}
+
+#headerBanner {
+  display: inline-flex;
+  background-color: #4444da;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 100px;
+}
+#headerBanner #headerContent {
+  max-width: 500px;
+}
+#headerBanner h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#headerBanner p {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+#headerBanner img {
+  max-height: 400px;
+}
+#headerBanner #headImg1 {
+  border-radius: 20px 0 0 20px;
+}
+#headerBanner #headImg2 {
+  border-radius: 0 20px 20px 0;
+}
+
+/*Content Layout*/
+.content {
+  display: grid;
+  padding: 50px 0;
+  grid-template-columns: 1fr 2fr;
+}
+
+/*Skillset*/
+#softwareImg {
+  max-height: 40px;
+}
+
+#software_logos {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+hr {
+  border-top: 1px solid #c392ee;
+}
+
+#designSkills {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+}
+#designSkills ul {
+  list-style: none;
+  line-height: 200%;
+}
+
+/*Experience*/
+.xp_block {
+  border-radius: 20px;
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+.xp_title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: #4444da;
+}
+
+/*Education*/
+#edu {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+#edu h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.edu_frames {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.eduBlock {
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+  justify-content: center;
+}
+.eduBlock img {
+  height: 45px;
+  margin: 15px;
+}
+.eduBlock .eduTitle {
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/*Contact Section*/
+#section_contactMe {
+  background: #4444da;
+  margin-bottom: 0;
+}
+#section_contactMe h2 {
+  color: white;
+}
+#section_contactMe p {
+  color: white;
+}
+
+#contactSection {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contactSection img {
+  max-height: 400px;
+}
+
+#contact_content h2 {
+  padding-bottom: 30px;
+}
+#contact_content p {
+  max-width: 400px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+}
+#contact_content p a {
+  list-style: none;
+  color: #c392ee;
+  font-weight: 500;
+}
+
+#socialLinks {
+  align-items: baseline;
+  display: flex;
+  gap: 30px;
+  margin: 10px auto;
+  justify-content: center;
+}
+#socialLinks img {
+  height: 35px;
+}
